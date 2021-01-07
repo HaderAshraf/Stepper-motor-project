@@ -1,1 +1,19 @@
+.MODEL SMALL
+.DATA
 
+
+.CODE
+.STARTUP
+
+
+
+
+MAIN PROC
+
+MAIN ENDP
+
+
+
+
+
+END
