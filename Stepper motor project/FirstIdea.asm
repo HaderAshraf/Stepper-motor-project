@@ -20,6 +20,11 @@ PORTA  = 00H                                                ;Address of Port A
 
 .CODE
 .STARTUP
+
+MOV AL,10000010B     ;PORTA & PORTB OUTPUT , PORTC INPUT , MODE 0
+OUT CONTW,AL
+
+
 MOV SI,0
 
 
