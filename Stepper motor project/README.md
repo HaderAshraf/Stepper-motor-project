@@ -9,7 +9,7 @@
   <li> ULN2003A Motor Driver </li>
   <li> UniPolar Stepper Motor </li>
   <li> (3) Switches </li>
-  <li> 7-Segment Comman Cathode Display </li>
+  <li> 7-Segment Common Cathode Display </li>
   </h4>
 </ul>
 
@@ -34,6 +34,13 @@
 <h4>Unipolar stepping motors have a center tap wired to the positive supply on each of two windings. The two ends of each winding are alternately grounded to reverse the direction of the magnetic field. The rotor would require proportionally more poles for higher angular resolutions. 30 degree per step mot4or is a common permanent magnet motor design. Control sequences in the windings spin the motor. The magnet is rotated one step at a time and the two halves of each winding are never energized at the same time.</h4>
 
 <img src="https://user-images.githubusercontent.com/42392736/103959149-92184200-5157-11eb-8fca-cd4cdd7c1ea3.jpg" width="450" height="300">
+
+
+
+<h1>:point_right:74HC373 Latch</h1> 
+<h4>The purpose for The "74HC373 Latch" is to latch the address of the wanted port needed to be accessed at the "8255A PPI" Microcontroller which is sent from the Microprocessor and then send the data to this port. The Microprocessor send the address of the wanted port needed to be accessed at the "8255A PPI" to the "74HC373 Latch" and then enable latch (LE), the "74HC373 Latch" will latch D1 nad D2, then the microprocessor send the data to the wanted port in "8255A PPI" through the "74HC373 Latch".</h4>
+
+
 
 <h1>:point_right:Programmable peripheral interface 8255A</h1>
 <h4>PPI 8255 is a general purpose programmable I/O device designed to interface the CPU with its outside world. It consists of three 8-bit bidirectional I/O ports i.e. PORT A, PORT B and PORT C. We can assign different ports as input or output functions. It consists of 40 pins each port has 8 pins and operates in +5V regulated power supply.</h4>
