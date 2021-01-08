@@ -21,8 +21,6 @@
 		DB   01110110b
 		DB   01110001b
 
-
-
 .CODE
 .STARTUP
 
@@ -30,9 +28,6 @@ MOV AL,10000010B     ;PORTA & PORTB OUTPUT , PORTC INPUT , MODE 0
 OUT CONTW,AL
 
 MOV SI,0
-
-
-
 
 MAIN:
 CMP START_FLAG,0	
@@ -64,8 +59,6 @@ STOPING PROC
 	 CALL CHAR_DISPLAY
 	 RET
 STOPING ENDP
-
-
 
 DELAY PROC			;delay specific time depends on DELAY_TIME variable					
 	 MOV BX, CX
