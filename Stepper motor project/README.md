@@ -40,6 +40,13 @@
 <img src="https://user-images.githubusercontent.com/42392736/103940688-6e90cf80-5136-11eb-93fb-060149a6cfc3.jpeg" width="350" height="350">
 
 
+<h3>The connection between stepper motor and ULN2003A motor driver:</h3>
+<h4>If the driver take high inpit the output to stepper motor will be low becouse of NPN transistors, then the coil in stepper motor will be energized because 2,5 of motor connected to supply.</h4>
+<img src="https://user-images.githubusercontent.com/42392736/103941080-04c4f580-5137-11eb-8321-8c2f3d31264e.jpeg" width="600" height="370">
+<h4>The figure below illustrate the word wich we give to driver to move the stepper motor to the corresponding angle:  </h4>
+<img src="https://user-images.githubusercontent.com/42392736/103947644-1ad7b380-5141-11eb-9261-b989cc38ce3f.jpeg" width="480" height="200">
+<img src="https://user-images.githubusercontent.com/42392736/103946104-e531cb00-513e-11eb-8143-d49ae5924278.PNG" width="500" height="500">
+
 
 <h1>:point_right: 74HC373 Latch</h1> 
 <h4>The "74HC373 Latch" used here is an octal D-type transparent latch with 3-State outputs. This device features enable (LE) and output enable (OE) inputs, this feature is common to all types of latches. When LE is HIGH, data at the inputs enter the latches. In this condition the latches are transparent, a latch output will change each time
