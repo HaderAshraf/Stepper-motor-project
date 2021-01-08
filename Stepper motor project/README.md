@@ -77,14 +77,14 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 
 <h1>:point_right: Collabrators</h1>
 <ul>
-  <li><h3>Mostafa mokhtar</h3></li>
+  <li><h2>Mostafa mokhtar</h2></li>
   mostafa160875@feng.bu.edu.eg
-  <li><h3>Hader Ashraf</h3></li>
+  <li><h2>Hader Ashraf</h2></li>
   hadeer160958@feng.bu.edu.eg
-  <li><h3>Mohamed Mahmoud</h3></li>
+  <li><h2>Mohamed Mahmoud</h2></li>
   mohamed160733@feng.bu.edu.eg
-  <li><h3>Salah Rasmy</h3></li>
+  <li><h2>Salah Rasmy</h2></li>
   salah160393@feng.bu.edu.eg
-  <li><h3>Michael Magdy</h3></li>
+  <li><h2>Michael Magdy</h2></li>
   Mikael160570@feng.bu.edu.eg
 </ul>
