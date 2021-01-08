@@ -14,3 +14,16 @@
 <h1>:point_right:8086 Microprocessor </h1>
 <h4>Intel 8086 is a 16-bit processor designed by Intel. It is a processor that handles a 16-bit word at a time. The data is stored inside the processor in the registers and the different addresses are stored in it. We use it to control the speed of stepper motor</h4>
 <img src="https://user-images.githubusercontent.com/42392736/103960593-2cc65000-515b-11eb-9f09-f7ef19612bad.jpeg" width="450" height="450">
+
+
+<h1>:point_right:Stepper motor </h1>
+<h3>A stepper motor has the following features:</h3>
+<ul><h4>
+  <li> Both-direction rotation </li>
+  <li> precision angular incremental changes</li>
+  <li> capability for digital control </li>
+  <li> holding torque at zero speed </li>
+  <li> Unipolar Stepper motor </li>
+  <li> repetition of accurate motion or velocity profiles </li>
+  </h4>
+</ul>
