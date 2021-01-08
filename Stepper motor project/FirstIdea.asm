@@ -38,24 +38,6 @@ MAIN :
 
 
 
-IN AL,PORTB
-
-TEST AL,00000001B 
-JNZ LL 	
-CALL HALF_SPEED
-LL:
-
-TEST AL,00000010B
-JNZ LLL
-CALL FULL_SPEED
-LLL:
-
-TEST AL,00000100B
-JNZ LLLL
-CALL STOPING
-LLLL:
-
-
 JMP MAIN
 
 
@@ -106,6 +88,37 @@ ROTATE PROC                          ;ROTATE PROCEDURE make the rotation action 
           OUT PORTA,AL               ;output the selected setp to port 'A' to rotate the motor 
           RET
  ROTATE ENDP 
+
+TEST_SWITCHES PROC    	             ;check the input switches if it is half speed , full speed or stop switch
+IN AL,PORTB
+
+TEST AL,00000001B 		      ;check if the half speed switch has been pressed 
+JNZ LL 	
+CALL HALF_SPEED
+LL:
+
+TEST AL,00000010B		      ;check if the full speed switch has been pressed 
+JNZ LLL
+CALL FULL_SPEED
+LLL:
+
+TEST AL,00000100B		     ;check if the stop switch has been pressed 
+JNZ LLLL
+CALL STOPING
+LLLL:
+RET
+TEST_SWITCHES ENDP 
+
+
+
+
+
+
+
+
+
+
+
 
 CHAR_DISPLAY PROC
 MOV DL,AL
