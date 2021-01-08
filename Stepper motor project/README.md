@@ -14,7 +14,7 @@
 </ul>
 
 <h1>:point_right: 8086 Microprocessor </h1>
-<h4>Intel 8086 is a 16-bit processor designed by Intel. It is a processor that handles a 16-bit word at a time. The data is stored inside the processor in the registers and the different addresses are stored in it. We use it to control the speed of stepper motor</h4>
+<h4>Intel 8086 is a 16-bit processor designed by Intel. It is a processor that handles a 16-bit word at a time. The data is stored inside the processor in the registers and the different addresses are stored in it. We use it to control the speed of stepper motor.</h4>
 <img src="https://user-images.githubusercontent.com/42392736/103960593-2cc65000-515b-11eb-9f09-f7ef19612bad.jpeg" width="450" height="450">
 
 
@@ -30,12 +30,12 @@
   </h4>
 </ul>
 
-<h3>we choose the unipolar stepper motor:</h3>
+<h3>Why have we choosen the Unipolar stepper motor:</h3>
 <h4>Unipolar stepping motors have a center tap wired to the positive supply on each of two windings. The two ends of each winding are alternately grounded to reverse the direction of the magnetic field. The rotor would require proportionally more poles for higher angular resolutions. 30 degree per step mot4or is a common permanent magnet motor design. Control sequences in the windings spin the motor. The magnet is rotated one step at a time and the two halves of each winding are never energized at the same time.</h4>
 
 <img src="https://user-images.githubusercontent.com/42392736/103959149-92184200-5157-11eb-8fca-cd4cdd7c1ea3.jpg" width="450" height="300">
 
-<h1>:point_right: ULN2003A motor driver </h1>
+<h1>:point_right: ULN2003A Motor driver </h1>
 <h4>The ULN2003A is an array of seven NPN Darlington transistors capable of 500 mA, 50 V output. It features common-cathode flyback diodes for switching inductive loads.</h4>
 <img src="https://user-images.githubusercontent.com/42392736/103940688-6e90cf80-5136-11eb-93fb-060149a6cfc3.jpeg" width="350" height="350">
 
@@ -47,6 +47,7 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 
 <h4>The purpose for The "74HC373 Latch" is to latch the address of the wanted port needed to be accessed at the "8255A PPI" Microcontroller which is sent from the Microprocessor and then send the data to this port. The Microprocessor send the address of the wanted port needed to be accessed at the "8255A PPI" to the "74HC373 Latch" and then enable latch (LE), the "74HC373 Latch" will latch D1 nad D2, then the microprocessor send the data to the wanted port in "8255A PPI" through the "74HC373 Latch".</h4>
 
+<img src="https://user-images.githubusercontent.com/42392736/103951933-32ff0100-5148-11eb-8927-67fb7010e5b0.jpg" width="350" height="300">
 
 
 <h1>:point_right: Programmable peripheral interface 8255A</h1>
