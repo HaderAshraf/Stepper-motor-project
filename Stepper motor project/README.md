@@ -38,6 +38,9 @@
 
 
 <h1>:point_right:74HC373 Latch</h1> 
+<h4>The "74HC373 Latch" used here is an octal D-type transparent latch with 3-State outputs. This device features enable (LE) and output enable (OE) inputs, this feature is common to all types of latches. When LE is HIGH, data at the inputs enter the latches. In this condition the latches are transparent, a latch output will change each time
+its corresponding D-input changes. When LE is LOW the latches store the information that was present at the inputs.</h4>
+
 <h4>The purpose for The "74HC373 Latch" is to latch the address of the wanted port needed to be accessed at the "8255A PPI" Microcontroller which is sent from the Microprocessor and then send the data to this port. The Microprocessor send the address of the wanted port needed to be accessed at the "8255A PPI" to the "74HC373 Latch" and then enable latch (LE), the "74HC373 Latch" will latch D1 nad D2, then the microprocessor send the data to the wanted port in "8255A PPI" through the "74HC373 Latch".</h4>
 
 
@@ -64,5 +67,5 @@
   <li><h3>Salah Rasmy</h3></li>
   salah160393@feng.bu.edu.eg
   <li><h3>Michael Magdy</h3></li>
-  mikael160570@feng.bu.edu.eg
+  Mikael160570@feng.bu.edu.eg
 </ul>
