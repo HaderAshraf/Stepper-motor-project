@@ -65,7 +65,7 @@ STOPING ENDP
 
 
 
-DELAY PROC								
+DELAY PROC			;delay specific time depends on DELAY_TIME variable					
 	 MOV BX, CX
 	 MOV CX, DELAY_TIME
       delay1:
