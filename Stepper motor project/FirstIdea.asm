@@ -17,7 +17,7 @@
 		
 	START_FLAG DB  00000000B
 	
-	DISPLAY DB   01101101b
+	DISPLAY DB   01101101b                             ;display matrix for seven segment
 		DB   01110110b
 		DB   01110001b
 
