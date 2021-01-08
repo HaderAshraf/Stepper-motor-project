@@ -9,7 +9,7 @@
   <li> ULN2003A Motor Driver </li>
   <li> UniPolar Stepper Motor </li>
   <li> (3) Switches </li>
-  <li> 7-Segment-Com-Cath </li>
+  <li> 7-Segment Comman Cathode Display </li>
   </h4>
 </ul>
 <h1>:point_right:8086 Microprocessor </h1>
