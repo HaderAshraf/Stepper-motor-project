@@ -30,13 +30,13 @@ OUT CONTW,AL
 MOV SI,0
 
 MAIN:
-CMP START_FLAG,0	
+CMP START_FLAG,0	;check the stop condition
 JZ STOP			
-CALL ROTATE		
+CALL ROTATE		; rotate one step
 CALL DELAY 
 STOP:   
-CALL TEST_SWITCHES	
-JMP MAIN		
+CALL TEST_SWITCHES	;check the input switches
+JMP MAIN		;loop for ever
 
 HALF_SPEED PROC
 	 MOV START_FLAG,1
