@@ -59,8 +59,8 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 
 
 <h1>:point_right:Seven segment</h1>
-<h3>We use seven segment as indecator for the mode of the speed of motor if we press the stop button the seven segment will display S, if we press half speed button the seven segment will display H and if we press the full speed button it will display F.</h3
-
+<h3>We use seven-segments as an indicator for the mode of the speed of the motor. if we press the stop button the seven-segments will display S, if we press the half-speed button the seven-segments will display H, and if we press the full-speed button it will display F.</h3
+<h3>We use common cathode seven-segments</h3>
 
 
 
