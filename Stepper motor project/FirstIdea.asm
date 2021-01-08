@@ -45,14 +45,14 @@ DELAY PROC
 	 RET
 DELAY ENDP
 
-ROTATE PROC
+ROTATE PROC                          ;ROTATE PROCEDURE make the rotation action by switching between steps in steps matrix
           MOV AL,ROTATION[SI]
           INC SI 
           CMP SI,8
-          JNZ FINISH
+          JNZ FINISH                 ;if we reach the final step go the first one again	
           MOV SI,0
       FINISH:
-          OUT PORTA,AL
+          OUT PORTA,AL               ;output the selected setp to port 'A' to rotate the motor 
           RET
  ROTATE ENDP 
 
