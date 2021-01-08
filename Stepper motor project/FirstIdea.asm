@@ -100,7 +100,7 @@ LLLL:
 RET
 TEST_SWITCHES ENDP 
 
-CHAR_DISPLAY PROC
+CHAR_DISPLAY PROC                   ;display (s) for stop or (f) for full speed or (h) for half speed
 MOV DL,AL
 MOV BX,0
 MOV BL,START_FLAG
