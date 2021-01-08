@@ -12,6 +12,7 @@
   <li> 7-Segment Comman Cathode Display </li>
   </h4>
 </ul>
+
 <h1>:point_right:8086 Microprocessor </h1>
 <h4>Intel 8086 is a 16-bit processor designed by Intel. It is a processor that handles a 16-bit word at a time. The data is stored inside the processor in the registers and the different addresses are stored in it. We use it to control the speed of stepper motor</h4>
 <img src="https://user-images.githubusercontent.com/42392736/103960593-2cc65000-515b-11eb-9f09-f7ef19612bad.jpeg" width="450" height="450">
@@ -28,3 +29,7 @@
   <li> repetition of accurate motion or velocity profiles </li>
   </h4>
 </ul>
+
+<h1>:point_right:Programmable peripheral interface 8255A</h1>
+<h4>PPI 8255 is a general purpose programmable I/O device designed to interface the CPU with its outside world. It consists of three 8-bit bidirectional I/O ports i.e. PORT A, PORT B and PORT C. We can assign different ports as input or output functions. It consists of 40 pins each port has 8 pins and operates in +5V regulated power supply.</h4>
+<img src="https://user-images.githubusercontent.com/42392736/103838041-b95a0b00-5094-11eb-9662-3358d5a6b94b.png" width="250" height="400">
