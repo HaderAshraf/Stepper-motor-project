@@ -19,6 +19,7 @@
 
 
 <h1>:point_right: Stepper motor </h1>
+<h4>A stepper motor is a DC electric motor that divides a full rotation into a number of equal steps.</h4>
 <h3>A stepper motor has the following features:</h3>
 <ul><h4>
   <li> Both-direction rotation </li>
