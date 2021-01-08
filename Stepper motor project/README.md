@@ -64,5 +64,5 @@
   <li><h3>Salah Rasmy</h3></li>
   salah160393@feng.bu.edu.eg
   <li><h3>Michael Magdy</h3></li>
-  Mikael160570@feng.bu.edu
+  Mikael160570@feng.bu.edu.eg
 </ul>
