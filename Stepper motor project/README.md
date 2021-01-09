@@ -76,7 +76,7 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 <h1>:point_right:Final output of the second idea</h1>
 <img src="https://user-images.githubusercontent.com/42392736/104081018-b8f87600-5234-11eb-9e10-e30cf76a30b7.jpeg" width="900" height="500">
 
-<h4>Click <a href="https://drive.google.com/drive/folders/1z2TzqNHUqyom_a3JSKWFnRi2yTt0ns6R?fbclid=IwAR1vklL28VaapCjOJnxKrqtcrWCAHoyKdaGmzMS5CzshH2tQiasO6wQ6pFI">here</a> to show the simulation video</h4>
+<h3>Click <a href="https://drive.google.com/drive/folders/1z2TzqNHUqyom_a3JSKWFnRi2yTt0ns6R?fbclid=IwAR1vklL28VaapCjOJnxKrqtcrWCAHoyKdaGmzMS5CzshH2tQiasO6wQ6pFI">here</a> to show the simulation video</h3>
 
 <h1>:point_right: Collabrators</h1>
 <ul>
