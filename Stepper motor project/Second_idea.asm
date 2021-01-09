@@ -25,6 +25,9 @@
 .code
 .startup
 
+MOV AL,10010000B 
+
+OUT CONTW,AL
 
 
 
