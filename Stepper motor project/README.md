@@ -72,15 +72,15 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 <img src="https://user-images.githubusercontent.com/42392736/103959138-862c8000-5157-11eb-8cb9-e51969026dd3.jpeg" width="350" height="300">
 <img src="https://user-images.githubusercontent.com/42392736/103959143-8a589d80-5157-11eb-8677-5f6a2e74f945.jpeg" width="600" height="125">
 
-<h1>:point_right:ADC0804 (only used in second idea)</h1>
+<h1>:point_right: ADC0804 (only used in second idea)</h1>
 <h4>We use ADC0804 to convert analog voltage from potentiometer to digital Byte, RD is always 0 to read the input voltage and WR is activated by microprocessor to write output with Consideration of conversion time. We use the internal clock so, we don't need CLK 1N and CLK R pins. VREF/2 connected to 2.5V</h4>
 <h4>The delay between each step is determined by the value of potentiopmeter.</h4>
 
-<h1>:point_right:Used software</h1>
+<h1>:point_right: Used software</h1>
 <h4>1- Protues </h4>
 <h4>2- 8086 emulator with MASM </h4>
 
-<h1>:point_right:Final output of the first idea</h1>
+<h1>:point_right: Final output of the first idea</h1>
 <img src="https://user-images.githubusercontent.com/42392736/103961141-8713e080-515c-11eb-9ff0-15708af2aea9.jpeg" width="900" height="500">
 
 <h1>:point_right:Final output of the second idea</h1>
