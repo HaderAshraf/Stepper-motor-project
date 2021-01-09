@@ -76,6 +76,7 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 <h4>We use ADC0804 to convert analog voltage from potentiometer to digital Byte, RD is always 0 to read the input voltage and WR is activated by microprocessor to write output with Consideration of conversion time. We use the internal clock so, we don't need CLK 1N and CLK R pins. VREF/2 connected to 2.5V</h4>
 <h4>The delay between each step is determined by the value of potentiopmeter.</h4>
 <h4>The conversion equation is : Delay = -8*ADC reading + 3070</h4>
+<img src="https://user-images.githubusercontent.com/42392736/104080884-94e86500-5233-11eb-92e9-c6f581097e25.png" width="300" height="350"
 
 <h1>:point_right: Used software</h1>
 <h4>1- Protues </h4>
@@ -100,5 +101,5 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
   <li><h3>Salah Rasmy</h3></li>
   salah160393@feng.bu.edu.eg
   <li><h3>Michael Magdy</h3></li>
-  Mikael160570@feng.bu.edu.eg
+  mikael160570@feng.bu.edu.eg
 </ul>
