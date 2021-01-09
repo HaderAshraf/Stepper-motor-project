@@ -13,7 +13,7 @@
 MAIN:
 
 DELAY PROC
-      MOV BX, CX
+	MOV BX, CX
 	MOV CX, DELAY_TIME
      delay1:
 	loop delay1
