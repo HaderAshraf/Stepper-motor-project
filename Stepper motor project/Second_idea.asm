@@ -25,7 +25,7 @@
 .code
 .startup
 
-MOV AL,10010000B 
+MOV AL,10010000B 		;Port A INPUT, Port B,C OUTPUT, MODE 0
 OUT CONTW,AL
 MOV SI,0
 
@@ -59,7 +59,7 @@ ROTATE PROC		;ROTATE PROCEDURE make the rotation action by switching between ste
    ROTATE ENDP
 
 
-DELAY PROC
+DELAY PROC				;Delay specific time depends on DELAY_TIME variable				
 	MOV BX, CX
 	MOV CX, DELAY_TIME
      delay1:
