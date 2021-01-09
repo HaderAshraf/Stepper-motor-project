@@ -1,7 +1,7 @@
 .MODEL SMALL
 .DATA 
 
-
+      DELAY_TIME DW 03FFH
 
 
 .code
@@ -12,6 +12,7 @@
 
 MAIN:
 
+DELAY PROC
 
 
 
