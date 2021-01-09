@@ -47,14 +47,14 @@ MAIN :
 
 JMP MAIN
 
-ROTATE PROC
+ROTATE PROC		;ROTATE PROCEDURE make the rotation action by switching between steps in steps matrix
    MOV AL,ROTATION[SI]
    INC SI 
    CMP SI,8
-   JNZ FINISH
+   JNZ FINISH		;if we reach the final step go the first one again
    MOV SI,0
    FINISH:
-   OUT PORTC,AL
+   OUT PORTC,AL		;output the selected setp to port 'C' to rotate the
    RET
    ROTATE ENDP
 
