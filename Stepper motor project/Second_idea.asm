@@ -72,7 +72,27 @@ READ_ADC PROC
  	RET
 READ_ADC ENDP
 
+LINEAR_CONTROLLING   PROC  		;change the delay_time linearly with the adc reading 
+	   CMP AL,50                    ; if adc reading <=50 the stepper motor stops
+	   JA L
+	   MOV START_FLAG,0
+	   JMP LL
+	L:                              ; if adc reading >50 the motor's speed will change according to equation 
+	   MOV START_FLAG,1
+           
+	   ;128-->07FE
+	   ;255-->03FF
+	   ;D=-8*ADC +3070 --> linear equation for the change in delay time according to adc reading 
 
+
+	   MOV BX,-8	
+	   MUL BX
+	   ADD AX,3070
+
+	   MOV DELAY_TIME,AX
+	LL:
+	      RET
+LINEAR_CONTROLLING ENDP
 
 
 
