@@ -10,6 +10,8 @@
   <li> UniPolar Stepper Motor </li>
   <li> (3) Switches </li>
   <li> 7-Segment Common Cathode Display </li>
+  <li> Potentiometer</li>
+  <li> ADC0804</li>
   </h4>
 </ul>
 
