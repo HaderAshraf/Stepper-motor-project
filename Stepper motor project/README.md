@@ -58,17 +58,20 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 <img src="https://user-images.githubusercontent.com/42392736/103838495-dfcc7600-5095-11eb-9521-2b9796aadb39.PNG" width="350" height="350">
 <img src="https://user-images.githubusercontent.com/42392736/103839133-603fa680-5097-11eb-848d-01f3b30570c4.jpeg" width="370" height="370">
 
-<h1>:point_right: Seven segment</h1>
-<h4>We use seven-segments as an indicator for the mode of the speed of the motor. if we press the stop button the seven-segments will display S, if we press the half-speed button the seven-segments will display H, and if we press the full-speed button it will display F.</h4>
-<h4>We use common cathode seven-segments and the figures below illustrate how turn on the wanted leds of seven-segments.</h4>
+<h1>:point_right: Seven Segment Display</h1>
+<h4>We use seven-segments as an indicator for the mode of speed of the motor. if we press the stop button the seven-segments will display "S", if we press the half-speed button the seven-segments will display "H", and if we press the full-speed button it will display "F".</h4>
+<h4>We use common cathode seven-segments and the figures below illustrate how to turn on the wanted leds of seven-segments display.</h4>
 <img src="https://user-images.githubusercontent.com/42392736/103959138-862c8000-5157-11eb-8cb9-e51969026dd3.jpeg" width="350" height="300">
 <img src="https://user-images.githubusercontent.com/42392736/103959143-8a589d80-5157-11eb-8677-5f6a2e74f945.jpeg" width="600" height="125">
 
 <h1>:point_right:Used software</h1>
 <h4>1- Protues </h4>
 <h4>2- 8086 emulator with MASM </h4>
+
 <h1>:point_right:Final output of the first idea</h1>
 <img src="https://user-images.githubusercontent.com/42392736/103961141-8713e080-515c-11eb-9ff0-15708af2aea9.jpeg" width="900" height="500">
+
+<h1>:point_right:Final output of the second idea</h1>
 
 <h1>:point_right: Collabrators</h1>
 <ul>
