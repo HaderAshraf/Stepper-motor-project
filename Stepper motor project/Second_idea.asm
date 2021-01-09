@@ -8,7 +8,7 @@
 
 
        DELAY_TIME DW 03FFH
-
+       START_FLAG DB  00000000B
        ROTATION DB   00000001b				    ;Complete rotation matrix
 		DB   00000011b
 		DB   00000010b
@@ -26,9 +26,8 @@
 .startup
 
 MOV AL,10010000B 
-
 OUT CONTW,AL
-
+MOV SI,0
 
 
 MAIN:
