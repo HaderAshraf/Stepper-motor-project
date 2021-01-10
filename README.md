@@ -81,6 +81,7 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 <h1>:point_right: Used software</h1>
 <h4>1- Protues </h4>
 <h4>2- 8086 emulator with MASM </h4>
+<h4>3- GitHub Disktop </h4>
 
 <h1>:point_right: Final output of the first idea</h1>
 <img src="https://user-images.githubusercontent.com/42392736/103961141-8713e080-515c-11eb-9ff0-15708af2aea9.jpeg" width="900" height="500">
@@ -92,7 +93,7 @@ its corresponding D-input changes. When LE is LOW the latches store the informat
 
 <h1>:point_right: Collabrators</h1>
 <ul>
-  <li><h3>Mostafa mokhtar</h3></li>
+  <li><h3>Mostafa Mokhtar</h3></li>
   mostafa160875@feng.bu.edu.eg
   <li><h3>Hader Ashraf</h3></li>
   hadeer160958@feng.bu.edu.eg
