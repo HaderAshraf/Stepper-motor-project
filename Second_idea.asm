@@ -8,7 +8,7 @@
 
 
        DELAY_TIME DW 03FFH
-       START_FLAG DB  00000000B
+       START_FLAG DB  00000000B					;Initializing START_FLAG
        ROTATION DB   00000001b				    ;Complete rotation matrix
 		DB   00000011b
 		DB   00000010b
@@ -25,14 +25,14 @@
 .code
 .startup
 
-MOV AL,10010000B 		;Port A INPUT, Port B,C OUTPUT, MODE 0
+MOV AL,10010000B 			;Port A INPUT, Port B,C OUTPUT, MODE 0
 OUT CONTW,AL
 MOV SI,0
 
 MAIN :
 
    CMP START_FLAG,0
-   JZ STOP  ; IF START FLAG =0 MAKE MOTOR STOP
+   JZ STOP					;IF START FLAG =0 MAKE MOTOR STOP
    CALL ROTATE
    CALL DELAY 
 
@@ -47,19 +47,19 @@ MAIN :
 
 JMP MAIN
 
-ROTATE PROC		;ROTATE PROCEDURE make the rotation action by switching between steps in steps matrix
+ROTATE PROC						;ROTATE PROCEDURE make the rotation action by switching between steps in steps matrix
    MOV AL,ROTATION[SI]
    INC SI 
    CMP SI,8
-   JNZ FINISH		;if we reach the final step go the first one again
+   JNZ FINISH					;If we reach the final step go the first one again
    MOV SI,0
    FINISH:
-   OUT PORTC,AL		;output the selected setp to port 'C' to rotate the
+   OUT PORTC,AL					;Output the selected step to port 'C' to rotate the motor
    RET
    ROTATE ENDP
 
 
-DELAY PROC				;Delay specific time depends on DELAY_TIME variable				
+DELAY PROC						;Delay specific time depends on DELAY_TIME variable				
 	MOV BX, CX
 	MOV CX, DELAY_TIME
      delay1:
@@ -69,19 +69,21 @@ DELAY PROC				;Delay specific time depends on DELAY_TIME variable
 DELAY ENDP
 
 
-READ_ADC PROC  			; READ THE ADC OUTPUT
-	MOV AL,1		; MAKE WR PIN 1
-	OUT PORTB,AL	
+READ_ADC PROC  						;READ THE ADC OUTPUT
+	MOV AL,1						;MAKE WR PIN 1 to stop writting
+	OUT PORTB,AL
+	
 	MOV CX,00FFH
 	D1:LOOP D1
+
 	MOV AL,0
-	OUT PORTB,AL	 	;MAKE WR PIN 0
+	OUT PORTB,AL	 				;MAKE WR PIN 0 to begin writting
 	MOV AX,0
-	IN AL,PORTA		; GET THE CHANGE IN OUTPUT OF ADC
+	IN AL,PORTA						;GET THE CHANGE IN OUTPUT OF ADC
  	RET
 READ_ADC ENDP
 
-LINEAR_CONTROLLING   PROC  		;change the delay_time linearly with the adc reading 
+LINEAR_CONTROLLING   PROC  			;change the delay_time linearly with the adc reading 
 	   CMP AL,50                    ; if adc reading <=50 the stepper motor stops
 	   JA L
 	   MOV START_FLAG,0
