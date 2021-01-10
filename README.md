@@ -53,7 +53,7 @@
 <h1>:point_right: 74HC373 Latch</h1> 
 <h4>The "74HC373 Latch" used here is an octal D-type transparent latch with 3-State outputs. This device features enable (LE) and output enable (OE) inputs, this feature is common to all types of latches. When LE is HIGH, data at the inputs enter the latches. In this condition the latches are transparent, a latch output will change each time
 its corresponding D-input changes. When LE is LOW the latches store the information that was present at the inputs.</h4>
-<h4>The purpose for The "74HC373 Latch" is to latch the address of the wanted port needed to be accessed at the "8255A PPI" Microcontroller which is sent from the Microprocessor and then send the data to this port. The Microprocessor send the address of the wanted port needed to be accessed at the "8255A PPI" to the "74HC373 Latch" and then enable latch (LE), the "74HC373 Latch" will latch D1 nad D2, then the microprocessor send the data to the wanted port in "8255A PPI" through the "74HC373 Latch".</h4>
+<h4>The purpose for The "74HC373 Latch" is to latch the address of the wanted port needed to be accessed at the "8255A PPI" which is sent from the Microprocessor and then send the data to this port. The Microprocessor send the address of the wanted port needed to be accessed at the "8255A PPI" to the "74HC373 Latch" and then enable latch (LE), the "74HC373 Latch" will latch D1 nad D2, then the microprocessor send the data to the wanted port in "8255A PPI" through the "74HC373 Latch".</h4>
 <img src="https://user-images.githubusercontent.com/42392736/103951933-32ff0100-5148-11eb-8927-67fb7010e5b0.jpg" width="350" height="300">
 
 <h1>:point_right: Programmable peripheral interface 8255A</h1>
